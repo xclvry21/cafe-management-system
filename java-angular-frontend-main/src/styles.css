@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+  color: cornsilk;
+    background-image: url("./assets/bg5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+    padding: 0;
+  }
+
+.logo{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
